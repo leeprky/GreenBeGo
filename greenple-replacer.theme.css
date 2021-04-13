@@ -1,0 +1,82 @@
+/*  ------------------------------------------
+
+                Greenple Recolored
+                      v0.1
+                - leeprky#2063 -
+
+    ------------------------------------------  */
+
+    :root {
+      --greenple-color2: 55, 178, 203; /* Must be an rgb color for opacity to work */
+      --greenple-color: #b57143; /* Must be an rgb color for opacity to work */
+  }
+  
+ 
+  /*
+  
+  .ephemeralMessage-1fEWtQ a {
+      color: rgba(var(--greenple-color)) !important;
+  }
+
+  div[class*="colorDefault-"]:active:not(.hideInteraction-1iHO1O),
+  div[class*="colorDefault-"].focused-3afm-j,
+  div[class*="colorDefault-"].focused-3afm-j:active {
+      background-color: rgba(var(--greenple-color)) !important;
+      color: #fff !important;
+  }
+  
+  div[class*="colorDanger-"].focused-3afm-j,
+  div[class*="colorDanger-"].focused-3afm-j:active {
+      background-color: #f04747 !important;
+  }
+  
+
+  div[class*="themeDefault"].valueChecked-m-4IJZ,
+  button[class*="lookFilled"].colorBrand-3pXr91,
+  button[class*="lookFilled"].colorBrand-3pXr91:disabled,
+  button[class*="lookFilled"].colorBrand-3pXr91:hover {
+      background-color: rgba(var(--greenple-color)) !important;
+      color: #fff !important;
+      border-color: rgba(var(--greenple-color)) !important;
+  }
+  */
+
+  .container-3auIfb {
+      background-color: var(--greenple-color) !important;
+  }
+  .barFill-23-gu- {
+    background-color: #7289da !important;
+}
+.lookFilled-1Gx00P.colorGreen-29iAKY {
+    background-color: var(--greenple-color) !important;
+}
+.defaultValue-3gC7yw .markValue-2DwdXI {
+    color: var(--greenple-color) !important;
+}
+.children-19S4PO [aria-label="Add Friend"] {
+    background-color: var(--greenple-color) !important;
+}
+.colorable-1bkp8v.green-plH-Mj.active-1QRrIS, .colorable-1bkp8v.green-plH-Mj {
+    background-color: var(--greenple-color) !important;
+}
+.colorable-1bkp8v.green-plH-Mj {
+    background-color: var(--greenple-color) !important;
+}
+
+.circleIcon-1-oi1i {
+    color: var(--greenple-color) !important;
+}
+.circleIconButton-1QV--U {
+    color: var(--greenple-color) !important;
+}
+.circleIcon-1-oi1i:hover {
+    color: var(--text-normal) !important;
+    width: 100px;
+}
+.circleIconButton-1QV--U:hover {
+    color: var(--text-normal) !important;
+}
+.circleIconButton-1QV--U.selected-1JjBPm {
+    background-color: var(--greenple-color) !important;
+    color: var(--text-normal) !important;
+}
