@@ -1,82 +1,40 @@
 /*  ------------------------------------------
 
                 Greenple Recolored
-                      v0.1
+                      v0.2
                 - leeprky#2063 -
 
     ------------------------------------------  */
 /*
     :root {
-      --greenple-color2: 55, 178, 203; 
-      --greenple-color: #dad617; 
-  }
-  */
- 
-  /*
-  
-  .ephemeralMessage-1fEWtQ a {
-      color: rgba(var(--greenple-color)) !important;
+      --green-color: #df2911; 
+      --green-bar-on: var(--greenple-color);
+      --green-bar-bg: #16171a;
+      --green-slider-on: var(--greenple-color);
+      --green-slider-off: rgb(48, 48, 54);
+      --green-slider-dot: #fff;
   }
 
-  div[class*="colorDefault-"]:active:not(.hideInteraction-1iHO1O),
-  div[class*="colorDefault-"].focused-3afm-j,
-  div[class*="colorDefault-"].focused-3afm-j:active {
-      background-color: rgba(var(--greenple-color)) !important;
-      color: #fff !important;
+/* Slides */
+  .container-3auIfb:not([style*="125"]) {
+    background-color: var(--green-slider-on) !important;
   }
-  
-  div[class*="colorDanger-"].focused-3afm-j,
-  div[class*="colorDanger-"].focused-3afm-j:active {
-      background-color: #f04747 !important;
+  .container-3auIfb[style*="125"] {
+    background-color: var(--green-slider-off) !important;
   }
-  
-
-  div[class*="themeDefault"].valueChecked-m-4IJZ,
-  button[class*="lookFilled"].colorBrand-3pXr91,
-  button[class*="lookFilled"].colorBrand-3pXr91:disabled,
-  button[class*="lookFilled"].colorBrand-3pXr91:hover {
-      background-color: rgba(var(--greenple-color)) !important;
-      color: #fff !important;
-      border-color: rgba(var(--greenple-color)) !important;
+  svg.slider-TkfMQL svg {
+    display: none;
   }
-  */
-
-  .container-3auIfb {
-      background-color: var(--greenple-color) !important;
+  .slider-TkfMQL rect {
+    fill: var(--green-slider-dot);
   }
-  .barFill-23-gu- {
-    background-color: #7289da !important;
-}
-.lookFilled-1Gx00P.colorGreen-29iAKY {
-    background-color: var(--greenple-color) !important;
-}
-.defaultValue-3gC7yw .markValue-2DwdXI {
-    color: var(--greenple-color) !important;
-}
-.children-19S4PO [aria-label="Add Friend"] {
-    background-color: var(--greenple-color) !important;
-}
-.colorable-1bkp8v.green-plH-Mj.active-1QRrIS, .colorable-1bkp8v.green-plH-Mj {
-    background-color: var(--greenple-color) !important;
-}
-.colorable-1bkp8v.green-plH-Mj {
-    background-color: var(--greenple-color) !important;
-}
-
-.circleIcon-1-oi1i {
-    color: var(--greenple-color) !important;
-}
-.circleIconButton-1QV--U {
-    color: var(--greenple-color) !important;
-}
-.circleIcon-1-oi1i:hover {
-    color: var(--text-normal) !important;
-    width: 100px;
-}
-.circleIconButton-1QV--U:hover {
-    color: var(--text-normal) !important;
-}
-.circleIconButton-1QV--U.selected-1JjBPm {
-    background-color: var(--greenple-color) !important;
-    color: var(--text-normal) !important;
-}
+  /* Bars */
+  .slider-1PF9SW .bar-2Qqk5Z {
+    background-color: var(--green-bar-on);
+  }
+  .slider-1PF9SW .bar-2Qqk5Z .barFill-23-gu- {
+    background-color: var(--green-bar-bg);
+  }
+  .defaultValue-3gC7yw .markValue-2DwdXI {
+    color: rgb(255, 255, 255);
+  }
